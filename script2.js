@@ -21,7 +21,9 @@ btn11.addEventListener("click", function() {
 // de "Curtir" para "Curtido!"
 //
 // Dica: use .textContent no proprio botao
-
+document.getElementById("btn12").addEventListener("click",function(){ 
+    document.getElementById("btn12").textContent = "curtido"
+})
 
 
 // ---------- Exercicio 13 ----------
