@@ -123,3 +123,8 @@ document.getElementById("btn19menos").addEventListener("click", function () {
 // e aplique como cor de fundo da #caixa20
 //
 // Dica: input type="color" tambem tem .value
+document.getElementById("btn20").addEventListener("click", function () {
+    const cor = document.getElementById("corInput20").value;
+    const caixa = document.getElementById("caixa20");
+    caixa.style.backgroundColor = cor;
+});
