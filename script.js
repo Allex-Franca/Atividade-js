@@ -74,13 +74,13 @@ document.getElementById("btn7").addEventListener("click", function() {
     document.getElementById("resultado7").textContent =
         document.getElementById("input7").value;
 });
-
-
 // ---------- Exercicio 8 ----------
 // Ao clicar no botao, adicione a classe "destaque" ao #texto8
 //
 // Dica: use .classList.add("destaque")
-
+document.getElementById("btn8").addEventListener("click",function(){ 
+    document.getElementById("texto8").classList.add("destaque")
+})
 
 
 // ---------- Exercicio 9 ----------
