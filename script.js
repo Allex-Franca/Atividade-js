@@ -102,4 +102,6 @@ btn9.addEventListener("click", function () {
 // "https://placecats.com/300/200"
 //
 // Dica: use .src = "nova-url"
-
+document.getElementById("btn10").addEventListener("click",function(){ 
+    document.getElementById("imagem10").src = "https://static.wikia.nocookie.net/battle-cats/images/e/e8/005_1.png/revision/latest?cb=20150528123248"
+})
