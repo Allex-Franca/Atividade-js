@@ -96,7 +96,6 @@ document.getElementById("btn17").addEventListener("click",function(){
 document.getElementById("btn18").addEventListener("click", function () {
     const inputA = document.getElementById("input18a");
     const inputB = document.getElementById("input18b");
-
     inputB.value = inputA.value;
 });
 
@@ -106,7 +105,17 @@ document.getElementById("btn18").addEventListener("click", function () {
 // Ao clicar em #btn19menos, diminua o valor do #contador19 em 1
 //
 // Dica: use Number() para converter o texto em numero
+document.getElementById("btn19mais").addEventListener("click", function () {
+    let contador = document.getElementById("contador19");
 
+    contador.textContent = Number(contador.textContent) + 1;
+});
+
+document.getElementById("btn19menos").addEventListener("click", function () {
+    let contador = document.getElementById("contador19");
+
+    contador.textContent = Number(contador.textContent) - 1;
+});
 
 
 // ---------- Exercicio 20 ----------
