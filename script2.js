@@ -93,7 +93,12 @@ document.getElementById("btn17").addEventListener("click",function(){
 // para o #input18b
 //
 // Dica: use .value para ler e definir o texto dos inputs
+document.getElementById("btn18").addEventListener("click", function () {
+    const inputA = document.getElementById("input18a");
+    const inputB = document.getElementById("input18b");
 
+    inputB.value = inputA.value;
+});
 
 
 // ---------- Exercicio 19 ----------
